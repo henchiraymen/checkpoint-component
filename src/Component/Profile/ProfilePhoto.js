@@ -1,8 +1,9 @@
 import React from "react";
+import aymenPhoto from "../../assets/photo.jpg";
 const ProfilePhoto = () => {
   return (
     <>
-      <img src="/photo.jpg" alt="Aymen's Profile" />
+      <img src={aymenPhoto} alt="Aymen's Profile" />
     </>
   );
 };
